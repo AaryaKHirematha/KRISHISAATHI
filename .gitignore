@@ -23,3 +23,21 @@ Thumbs.db
 
 # Pytest
 .pytest_cache/
+.vercel
+.env*
+
+# Database files (contain user data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads (user-uploaded files)
+uploads/
+
+# Firebase service account (sensitive credentials)
+serviceAccountKey.json
+*serviceAccount*.json
+
+# Build artifacts
+build/
+*.egg-info/
